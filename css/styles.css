@@ -38,7 +38,7 @@ ol {
     width: 370px;
 }
 
-.siderbar-content {
+.sidebar-content {
     padding-left: 40px;
     padding-top: 40px;
     padding-right: 40px;
@@ -75,8 +75,35 @@ ol {
     margin-bottom: 4px;
 }
 
-.contacts-conrtainer {
+.contacts-container {
     margin-bottom: 40px;
+}
+
+.icon-list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 128px;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 34px;
+    height: 34px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #000000;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+    fill: #1d00c3;
 }
 
 /* Skills container */
@@ -129,7 +156,7 @@ ol {
     line-height: 24px;
 }
 
-/* Main contant*/
+/* Main content*/
 
 .my-profession {
     color: #000;
@@ -148,7 +175,7 @@ ol {
     margin-top: 12px;
 }
 
-.my-descr {
+.my-description {
     color: #595959;
     font-size: 14px;
     font-weight: 400;
@@ -255,7 +282,7 @@ ol {
     margin-bottom: 12px;
 }
 
-/* Company 4 */
+/* Company 3 */
 
 .education-title {
     color: #000;
