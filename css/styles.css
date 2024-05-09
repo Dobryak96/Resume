@@ -86,6 +86,7 @@ ol {
     margin-top: 20px;
     margin-bottom: 20px;
     max-width: 128px;
+    list-style: none;
 }
 
 .icon-link {
@@ -284,6 +285,10 @@ ol {
 
 /* Company 3 */
 
+.education {
+    margin-top: 40px;
+}
+
 .education-title {
     color: #000;
     font-size: 22px;
@@ -316,6 +321,29 @@ ol {
     color: #000;
 }
 
-.education {
+/* Company 4 */
+
+.languages {
     margin-top: 40px;
+}
+
+.language-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.languages-speak {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.languages-level {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
 }
