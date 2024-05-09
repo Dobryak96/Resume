@@ -10,6 +10,10 @@ ol {
     margin-bottom: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .wrapper {
     background: #ffffff;
     display: flex;
@@ -67,7 +71,7 @@ ol {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    text-decoration-line: underline;
+   
 }
 
 .contacts-item {
@@ -215,7 +219,6 @@ ol {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    text-decoration-line: underline;
 }
 
 .my-projects-item-tech {
